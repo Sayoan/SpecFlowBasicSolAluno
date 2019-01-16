@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.Basic", "SpecFlow.Basic\SpecFlow.Basic.csproj", "{4EF2913A-0894-4CFA-B092-6DC53530AFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Calculadora\Example.csproj", "{BD3CC2AF-1E69-4B85-BE41-0DACD27BE98A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF2913A-0894-4CFA-B092-6DC53530AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF2913A-0894-4CFA-B092-6DC53530AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF2913A-0894-4CFA-B092-6DC53530AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF2913A-0894-4CFA-B092-6DC53530AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3CC2AF-1E69-4B85-BE41-0DACD27BE98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3CC2AF-1E69-4B85-BE41-0DACD27BE98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3CC2AF-1E69-4B85-BE41-0DACD27BE98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3CC2AF-1E69-4B85-BE41-0DACD27BE98A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

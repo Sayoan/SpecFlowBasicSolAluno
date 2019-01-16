@@ -1,0 +1,21 @@
+﻿Projeto Specflow Basic
+
+Dificuldade: básica
+
+
+Instalar NUnit
+Acessar Tools > Extensios and Updates e instalar SpecFlow
+Gerar um novo item com o tipo Specflow Feature File
+Clicar na feature com botão direito e escolher "Generate Step Definitions"
+Pronto pra rodar testes
+
+Specification project: features
+Application code em outro projeto
+Solution Explorer - New Project - Class Library
+No projeto de especificação, referenciar o projeto "Class Library"
+
+Criação de um objeto do projeto de implementação dentro da classe de feature
+"private Calculator calculator = new Calculator();"
+
+
+Variáveis do projeto Class Library são utilizadas no projeto de especificação!
