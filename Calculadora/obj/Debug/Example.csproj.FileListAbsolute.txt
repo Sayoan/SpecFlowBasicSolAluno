@@ -9,7 +9,6 @@ C:\Users\sayoan.oliveira\Documents\SpecFlow.Basic\Calculadora\obj\Debug\Calculad
 C:\Users\sayoan.oliveira\Documents\SpecFlow.Basic\Calculadora\obj\Debug\Calculadora.pdb
 C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\bin\Debug\Calculadora.dll
 C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\bin\Debug\Calculadora.pdb
-C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\obj\Debug\Example.csprojResolveAssemblyReference.cache
 C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\obj\Debug\Example.csproj.CoreCompileInputs.cache
 C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\obj\Debug\Calculadora.dll
 C:\Users\sayoan.oliveira\Documents\SpecFlowBasicSolAluno\Calculadora\obj\Debug\Calculadora.pdb

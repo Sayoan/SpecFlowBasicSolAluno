@@ -18,20 +18,20 @@ namespace SpecFlow.Basic.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Login - Sol Aluno")]
-    public partial class Login_SolAlunoFeature
+    [NUnit.Framework.DescriptionAttribute("Sol Aluno - Login")]
+    public partial class SolAluno_LoginFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "SolAlunoAtivo.feature"
+#line 1 "SolFeature.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Login - Sol Aluno", "\tComo um aluno do Sol Aluno\r\n\tEu quero realizar login\r\n\tPara acessar minhas infor" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sol Aluno - Login", "\tComo um aluno do Sol Aluno\r\n\tEu quero realizar login\r\n\tPara acessar minhas infor" +
                     "mações acadêmicas", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -72,13 +72,13 @@ namespace SpecFlow.Basic.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Aluno Ativo acessa Sol Aluno")]
-        [NUnit.Framework.CategoryAttribute("Test1")]
+        [NUnit.Framework.CategoryAttribute("Test3")]
         [NUnit.Framework.TestCaseAttribute("114111564", "123", null)]
         [NUnit.Framework.TestCaseAttribute("114110112", "123", null)]
         public virtual void AlunoAtivoAcessaSolAluno(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Test1"};
+                    "Test3"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -101,13 +101,13 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Aluno erra senha no acesso Sol Aluno")]
-        [NUnit.Framework.CategoryAttribute("Test2")]
+        [NUnit.Framework.CategoryAttribute("Test4")]
         [NUnit.Framework.TestCaseAttribute("114111564", "1234", null)]
         [NUnit.Framework.TestCaseAttribute("testuser_2", "Test@153", null)]
         public virtual void AlunoErraSenhaNoAcessoSolAluno(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Test2"};
+                    "Test4"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -119,7 +119,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 19
  testRunner.Given("Acesso a pagina de login do Sol Aluno", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 20
- testRunner.When(string.Format("Aluno entra {0} e {1}", username, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When(string.Format("Entro com as credenciais {0} e {1}", username, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 21
  testRunner.And("Clico no botao Login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 22
