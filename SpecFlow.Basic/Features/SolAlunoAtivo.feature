@@ -1,12 +1,14 @@
-﻿Feature: Acesso Sol Aluno
-	Acesso ao sistema SOL Aluno
+﻿Feature: Login - Sol Aluno
+	Como um aluno do Sol Aluno
+	Eu quero realizar login
+	Para acessar minhas informações acadêmicas
 
 @Test1
 Scenario Outline: Aluno Ativo acessa Sol Aluno
-	Given Aluno acessa Sol Aluno
-	When Aluno entra <username> e <password>
-	And Clica no botao Login
-	Then Aluno acessa com sucesso
+	Given Acesso a pagina de login do Sol Aluno
+	When Entro com as credenciais <username> e <password>
+	And Clico no botao Login
+	Then Deve entrar na pagina inicial do Sol Aluno 
 Examples:
 | username   | password |
 |  114111564 | 123 |
@@ -14,10 +16,10 @@ Examples:
 
 @Test2
 Scenario Outline: Aluno erra senha no acesso Sol Aluno
-	Given Aluno acessa Sol Aluno
+	Given Acesso a pagina de login do Sol Aluno
 	When Aluno entra <username> e <password>
-	And Clica no botao Login
-	Then Aluno nao faz login
+	And Clico no botao Login
+	Then Deve aparecer uma mensagem de alerta 'Login ou senha inválido'
 Examples:
 | username   | password |
 |  114111564 | 1234 |
