@@ -20,6 +20,7 @@ ScenarioContext.Current[“key“] = object;
 var value = (objectType)ScenarioContext.Current[“objectName“]
 ```
 **Demais contextos**
+
 **Set a value**
 ```sh
 ScenarioContext.Current.Add(string key, object value);
