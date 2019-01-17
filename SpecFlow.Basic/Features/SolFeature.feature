@@ -11,7 +11,7 @@ Scenario Outline: Aluno Ativo acessa Sol Aluno
 	Then Deve entrar na pagina inicial do Sol Aluno 
 Examples:
 | username   | password |
-|  114111564 | 123 |
+|  114111564 | 1234 |
 | 114110112 | 123 |
 
 @Test4
@@ -22,5 +22,5 @@ Scenario Outline: Aluno erra senha no acesso Sol Aluno
 	Then Deve aparecer uma mensagem de alerta 'Login ou senha inválido'
 Examples:
 | username   | password |
-|  114111564 | 1234 |
+|  114111564 | 123 |
 | testuser_2 | Test@153 |

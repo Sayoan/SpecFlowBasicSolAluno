@@ -73,7 +73,7 @@ namespace SpecFlow.Basic.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Aluno Ativo acessa Sol Aluno")]
         [NUnit.Framework.CategoryAttribute("Test3")]
-        [NUnit.Framework.TestCaseAttribute("114111564", "123", null)]
+        [NUnit.Framework.TestCaseAttribute("114111564", "1234", null)]
         [NUnit.Framework.TestCaseAttribute("114110112", "123", null)]
         public virtual void AlunoAtivoAcessaSolAluno(string username, string password, string[] exampleTags)
         {
@@ -102,7 +102,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Aluno erra senha no acesso Sol Aluno")]
         [NUnit.Framework.CategoryAttribute("Test4")]
-        [NUnit.Framework.TestCaseAttribute("114111564", "1234", null)]
+        [NUnit.Framework.TestCaseAttribute("114111564", "123", null)]
         [NUnit.Framework.TestCaseAttribute("testuser_2", "Test@153", null)]
         public virtual void AlunoErraSenhaNoAcessoSolAluno(string username, string password, string[] exampleTags)
         {

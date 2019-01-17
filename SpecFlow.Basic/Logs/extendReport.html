@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>1/17/2019 5:40:53 PM Hora oficial do Brasil</span>
+                <span class='suite-start-time label blue darken-3'>17/01/2019 18:31:18 Hora oficial do Brasil</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -123,10 +123,10 @@
                     <canvas id='parent-analysis' width='100' height='80'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span><span class='strong'>1</span> test(s) passed</span>
+                    <span><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
+                    <span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
                 </div>
             </div>
         </div>
@@ -138,10 +138,10 @@
                         <canvas id='child-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>2</span> step(s) passed</span>
+                        <span><span class='strong'>0</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -153,10 +153,10 @@
                         <canvas id='grandchild-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>8</span> step(s) passed</span>
+                        <span><span class='strong'>3</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -170,15 +170,15 @@
             <ul id='test-collection' class='test-collection'>
 
 
-                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='1'>
+                    <li class='test displayed active has-leaf fail' status='fail' bdd='bdd' test-id='1'>
                         <div class='test-heading'>
                             <span class='test-name'>Sol Aluno - Login</span>
-                            <span class='test-time'>1/17/2019 5:40:53 PM</span>
-                            <span class='test-status right pass'>Pass</span>
+                            <span class='test-time'>17/01/2019 18:31:18</span>
+                            <span class='test-status right fail'>Fail</span>
                         </div>
                         <div class='test-content hide'>
-                                    <div class='scenario node' test-id='2' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:00.2352247</span>
+                                    <div class='scenario node' test-id='2' status='fail'>
+                                        <span class='scenario-duration right label'>00:00:20.0283178</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
                                             Aluno Ativo acessa Sol Aluno
@@ -189,53 +189,19 @@
                                                     <li test-id='3' class='node given pass' status='given pass'>
                                                         <b>Given</b>
                                                         Acesso a pagina de login do Sol Aluno
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                                    <li test-id='4' class='node and pass' status='and pass'>
-                                                        <b>And</b>
-                                                        Entro com as credenciais username e password
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
+                                                                                                                                                                    </li>
+                                                    <li test-id='4' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        Entro com as credenciais 114111564 e 1234
+                                                                                                                                                                    </li>
                                                     <li test-id='5' class='node when pass' status='when pass'>
                                                         <b>When</b>
                                                         Clico no botao Login
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                                    <li test-id='6' class='node then pass' status='then pass'>
+                                                                                                                                                                    </li>
+                                                    <li test-id='6' class='node then fail' status='then fail'>
                                                         <b>Then</b>
-                                                        Deve aparecer uma mensagem de alerta 'Login ou senha inválido'
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                            </ul>
-                                    </div>
-                                    <div class='scenario node' test-id='7' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:00.1392139</span>
-                                        <div class='scenario-desc'>
-                                            <b>Scenario</b>
-                                            Aluno Ativo acessa Sol Aluno2
-
-                                            
-                                        </div>
-                                            <ul class='steps'>
-                                                    <li test-id='8' class='node given pass' status='given pass'>
-                                                        <b>Given</b>
-                                                        Acesso a pagina de login do Sol Aluno
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                                    <li test-id='9' class='node and pass' status='and pass'>
-                                                        <b>And</b>
-                                                        Entro com as credenciais username e password
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                                    <li test-id='10' class='node when pass' status='when pass'>
-                                                        <b>When</b>
-                                                        Clico no botao Login
-                                                                                                                                                                            <div class='pre'>pass</div>
-                                                    </li>
-                                                    <li test-id='11' class='node then pass' status='then pass'>
-                                                        <b>Then</b>
-                                                        Deve aparecer uma mensagem de alerta 'Login ou senha inválido'
-                                                                                                                                                                            <div class='pre'>pass</div>
+                                                        Deve entrar na pagina inicial do Sol Aluno
+                                                                                                                                                                            <div class='pre'>Assert.AreEqual falhou. Esperado:<https://homoaca-php.animaeducacao.com.br/branches/base2/SOL/aluno/index.php/index/seguranca/dev/instituicao/1>. Real:<https://homoaca-php.animaeducacao.com.br/branches/base2/SOL/aluno/index.php/>.</div>
                                                     </li>
                                             </ul>
                                     </div>
@@ -311,31 +277,31 @@
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
- <span>Scenarios</span>                     <div class='panel-lead'>2</div>
+ <span>Scenarios</span>                     <div class='panel-lead'>1</div>
                 </div>
             </div>
                 <div class='col s2'>
                     <div class='card-panel r'>
                         Steps
-                        <div class='panel-lead'>8</div>
+                        <div class='panel-lead'>4</div>
                     </div>
                 </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>1/17/2019 5:40:53 PM</div>
+                    <div class='panel-lead'>17/01/2019 18:31:18</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>1/17/2019 5:40:58 PM</div>
+                    <div class='panel-lead'>17/01/2019 18:31:41</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:00:05.2817313</div>
+                    <div class='panel-lead'>00:00:23.4163486</div>
                 </div>
             </div>
 
@@ -354,23 +320,23 @@
 
 		<script>
 			var statusGroup = {
-			    passParent: 1,
-			    failParent: 0,
+			    passParent: 0,
+			    failParent: 1,
 			    fatalParent: 0,
 			    errorParent: 0,
 			    warningParent: 0,
 			    skipParent: 0,
 				
-			    passChild: 2,
-			    failChild: 0,
+			    passChild: 0,
+			    failChild: 1,
 			    fatalChild: 0,
 			    errorChild: 0,
 			    warningChild: 0,
 			    skipChild: 0,
 			    infoChild: 0,
 				
-			    passGrandChild: 8,
-			    failGrandChild: 0,
+			    passGrandChild: 3,
+			    failGrandChild: 1,
 			    fatalGrandChild: 0,
 			    errorGrandChild: 0,
 			    warningGrandChild: 0,
