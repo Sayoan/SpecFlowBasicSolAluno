@@ -23,4 +23,4 @@ Scenario Outline: Aluno erra senha no acesso Sol Aluno
 Examples:
 | username   | password |
 |  114111564 | 123 |
-| testuser_2 | Test@153 |
+| 114111564 | Test@153 |

@@ -103,7 +103,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("Aluno erra senha no acesso Sol Aluno")]
         [NUnit.Framework.CategoryAttribute("Test4")]
         [NUnit.Framework.TestCaseAttribute("114111564", "123", null)]
-        [NUnit.Framework.TestCaseAttribute("testuser_2", "Test@153", null)]
+        [NUnit.Framework.TestCaseAttribute("114111564", "Test@153", null)]
         public virtual void AlunoErraSenhaNoAcessoSolAluno(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
